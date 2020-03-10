@@ -1,0 +1,7 @@
+[flake8]
+exclude = build,dist,docs,env
+
+# star imports
+ignore = F403,F405
+# because 79 is just too low
+max-line-length = 125
